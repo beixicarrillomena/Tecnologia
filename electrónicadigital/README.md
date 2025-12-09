@@ -76,5 +76,16 @@ Diodo LED
 LDR
 
 
-![con Diodo LED](imagenes/Montajede3puertaslógicas.png)
+![con LDR](imagenes/Montajede3puertaslógicas.png)
 
+
+
+|a|b|c|S|
+|0|0|0|0|
+|0|0|1|1|
+|0|1|0|1|
+|0|1|1|1|
+|1|0|0|0|
+|1|0|1|0|
+|1|1|0|0|
+|1|1|1|0|
