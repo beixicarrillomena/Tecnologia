@@ -67,13 +67,20 @@ La puerta lógica NOR sin recordar sus comunes tiene una disposicion inversa de 
 
 ## Montaje 
 
+## Compuertas logicas
+
+
+
 ### El primer paso que se hizo fue hacerlo en Tinkercad para ver si funcionaba.
 Aunque principalmente se tenia pensado hacerlo con la LDR se prefirio priero hacerlo con un diodo LED y despues el uso de la LDR y estos son nuestros modelos:
-Diodo LED
+
+### Diodo LED
 
 ![con Diodo LED](imagenes/montajede3puertaslgicasconldr.png)
 
-LDR
+- Con el Dido Led
+
+### LDR
 
 
 ![con LDR](imagenes/montajeluertaslogicas.png)
