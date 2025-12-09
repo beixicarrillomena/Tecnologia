@@ -102,5 +102,5 @@ Aunque principalmente se tenia pensado hacerlo con la LDR se prefirio priero hac
 
 ## Fotos
 
-![compuertas lógicas](imagenes/fotodecosas.jpg)
+![imagen del montaje](imagenes/fotodecosas.jpg)
  
