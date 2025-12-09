@@ -71,12 +71,12 @@ La puerta lógica NOR sin recordar sus comunes tiene una disposicion inversa de 
 Aunque principalmente se tenia pensado hacerlo con la LDR se prefirio priero hacerlo con un diodo LED y despues el uso de la LDR y estos son nuestros modelos:
 Diodo LED
 
-![con Diodo LED](imagenes/Montajede3puertaslógicasconLDR(1).png)
+![con Diodo LED](imagenes/montajede3puertaslgicasconldr.png)
 
 LDR
 
 
-![con LDR](imagenes/Montajede3puertaslógicas.png)
+![con LDR](imagenes/montajeluertaslogicas.png)
 
 
 ## Tabla de verdad.
