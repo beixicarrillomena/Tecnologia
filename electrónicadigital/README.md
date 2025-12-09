@@ -65,5 +65,8 @@ La puerta lógica NOR sin recordar sus comunes tiene una disposicion inversa de 
 
 
 
+## Montaje 
 
+### El primer paso que se hizo fue hacerlo en Tinkercad para ver si funcionaba.
+Nuestro modelo para ello fue este:
 
