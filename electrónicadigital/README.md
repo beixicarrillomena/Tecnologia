@@ -87,6 +87,8 @@ Aunque principalmente se tenia pensado hacerlo con la LDR se prefirio priero hac
 
 ![con LDR](imagenes/montajeluertaslogicas.png)
 
+- Con el LDR.
+  
 - Este circuito es parecido al anterior pero este tiene 4 resistencias, una fotorresistencia, un diodo, 2 pulsadores, 3 puertas lógicas, un transistor y un réle comienza al pulsar los dos pulsadores y la fotorresistencia pasando por las 3 puertas lógicas y hacia el transistor que mientras esta con el diodo facilitando las conexion también acciona el réle concluyendo con el circuito.
 
 ## Tabla de verdad.
