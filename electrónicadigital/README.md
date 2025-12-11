@@ -80,16 +80,16 @@ Aunque principalmente se tenia pensado hacerlo con la LDR se prefirio priero hac
 
 - Con el Dido Led
 
-- Este circuito incluye 4 resistencias, 3 puertas lógicas, una fotorresistencias, 2 pulsadores, y un diodo LED cual lo que  hace es pulsando los pulsadores y con la suficiente luz la fotorresistencia pasa la conexion hacia las 3 puertas lógicas para depues encender el diodo LED concluyendo el circuito.
+- Este circuito incluye 4 resistencias, 3 puertas lógicas, una LDR, 2 pulsadores, y un diodo LED cual lo que  hace es pulsando los pulsadores y con la suficiente luz la LDR pasa la conexion hacia las 3 puertas lógicas para depues encender el diodo LED concluyendo el circuito.
 
-### LDR
+### CON RÉLE
 
 
 ![con LDR](imagenes/montajeluertaslogicas.png)
 
-- Con el LDR.
+- Con Réle.
   
-- Este circuito es parecido al anterior pero este tiene 4 resistencias, una fotorresistencia, un diodo, 2 pulsadores, 3 puertas lógicas, un transistor y un réle comienza al pulsar los dos pulsadores y la fotorresistencia pasando por las 3 puertas lógicas y hacia el transistor que mientras esta con el diodo facilitando las conexion también acciona el réle concluyendo con el circuito.
+- Este circuito es parecido al anterior pero este tiene 4 resistencias, una LDR, un diodo, 2 pulsadores, 3 puertas lógicas, un transistor y un réle: comienza al pulsar los dos pulsadores y la LDR detecta que la luz es adecuada perimte la conexión por las 3 puertas lógicas y que sus entradas esten correctas y bien prgramadas la salida sera correcta permitiendo la conexion hacia el transistor que mientras esta con el diodo facilitando las conexion también acciona el réle concluyendo con el circuito.
 
 ## Tabla de verdad.
 
