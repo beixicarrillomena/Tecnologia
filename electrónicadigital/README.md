@@ -80,11 +80,14 @@ Aunque principalmente se tenia pensado hacerlo con la LDR se prefirio priero hac
 
 - Con el Dido Led
 
+- Este circuito incluye 4 resistencias, 3 puertas lógicas, una fotorresistencias, 2 pulsadores, y un diodo LED cual lo que  hace es pulsando los pulsadores y con la suficiente luz la fotorresistencia pasa la conexion hacia las 3 puertas lógicas para depues encender el diodo LED concluyendo el circuito.
+
 ### LDR
 
 
 ![con LDR](imagenes/montajeluertaslogicas.png)
 
+- Este circuito es parecido al anterior pero este tiene 4 resistencias, una fotorresistencia, un diodo, 2 pulsadores, 3 puertas lógicas, un transistor y un réle comienza al pulsar los dos pulsadores y la fotorresistencia pasando por las 3 puertas lógicas y hacia el transistor que mientras esta con el diodo facilitando las conexion también acciona el réle concluyendo con el circuito.
 
 ## Tabla de verdad.
 
@@ -99,6 +102,7 @@ Aunque principalmente se tenia pensado hacerlo con la LDR se prefirio priero hac
 | 1 | 1 | 0 | 0 |
 | 1 | 1 | 1 | 0 |
 
+- Las puertas de entrada 0 con cualquier variante 1 su salida sera 1 estando abierta, y las que de entrada 1 con o sin ninguna variante estara siempre cerrada. 
 
 ## Fotos
 
