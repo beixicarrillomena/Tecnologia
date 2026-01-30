@@ -18,6 +18,12 @@
 
 # Sensor Sonda de temperatura
 
+- ¿Como funciona?
+
+  Funciona conectando el negativo al GND y el rojo a 5V para concluir que el amarillo se marque a un pin de una placa para tenr la informacion y para concluir que al final de su compuesto la barilla metalica detecte la temperatura y envie la información
+
 - ¿Para que sirve?
   
-Sirve para medir la temperatura de cualquier elemento y cuya informacion que extrae la manda a otro dispositivo
+Sirve para medir la temperatura de cualquier elemento y cuya informacion que extrae lo mande a otro dispositivo.
+
+
