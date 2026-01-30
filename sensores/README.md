@@ -12,7 +12,7 @@
   
   El funcionamiento del programa es que desde arduino nos dija si detecta alguien o algo desde el panel de informacion que arduino nos puede proporcionaraprte de icluido que cuando detecte se encienda un diodo LED y se apage cuando no incluyendo que el programa tiene lectura analogica y variables dentro para facilitar su funcionamiento.
 
-- ¿De que esta compuesto el prgrama?
+- ¿De que esta compuesto el programa?
   
   Estaria compuesto de cables, una placa Arduino, un diodo LED, una resistencia, Sensor PIR, tabla placa protoboard
 
@@ -26,4 +26,11 @@
   
 Sirve para medir la temperatura de cualquier elemento y cuya informacion que extrae lo mande a otro dispositivo.
 
+- ¿Como funciona nuestro programa?
+
+El funcionamiento de nuestro programa es que cuando detecte una temperatura mande la informacion al panel de arduino del monitor constantemente para asi comprobar cualquier cambio de temperatura en su adbiente.
+
+- ¿De que componentes esta hecho nuestro programa?
+
+   Tiene placa de arduino, cableado y cableado de cocodrilo y por ultimo en sensor de sonda de temperatura.
 
