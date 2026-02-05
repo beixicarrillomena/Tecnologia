@@ -16,7 +16,7 @@
   
   Estaria compuesto de cables, una placa Arduino, un diodo LED, una resistencia, Sensor PIR, tabla placa protoboard
 
-# Sensor Sonda de humeadad
+# Sensor de humeadad
 
 - ¿Como funciona?
 
