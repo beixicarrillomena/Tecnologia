@@ -33,4 +33,7 @@ El funcionamiento de nuestro programa es que cuando detecte una humedad mande la
 - ¿De que componentes esta hecho nuestro programa?
 
    Tiene placa de arduino, cableado y cableado de cocodrilo y por ultimo en sensor de humedad.
+  
+# ¿Como funciona el programa?
 
+- El programa funciona de lectura aalogica que incluye dos variables cual se le puede llamar de tu gusto con deun inicio de serial begin en el setup y para que el el loop en el analogic read siempre lea el sensor y lo envie a serial print para que salga los datos que envia al sensor al monitor de la consola con un retardo de 500 milisegundos.
