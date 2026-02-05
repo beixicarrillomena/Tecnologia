@@ -16,21 +16,21 @@
   
   Estaria compuesto de cables, una placa Arduino, un diodo LED, una resistencia, Sensor PIR, tabla placa protoboard
 
-# Sensor Sonda de temperatura
+# Sensor Sonda de humeadad
 
 - ¿Como funciona?
 
-  Funciona conectando el negativo al GND y el rojo a 5V para concluir que el amarillo se marque a un pin de una placa para tenr la informacion y para concluir que al final de su compuesto la barilla metalica detecte la temperatura y envie la información
+  Funciona conectando el negativo al GND y el rojo a 5V para concluir que el amarillo se marque a un pin de una placa para tenr la informacion y para concluir que al final de su compuesto de una especia de clavija cual se unde en la tierra para que envie la información
 
 - ¿Para que sirve?
   
-Sirve para medir la temperatura de cualquier elemento y cuya informacion que extrae lo mande a otro dispositivo.
+Sirve para medir la humedad de cualquier elemento y cuya informacion que extrae lo mande a otro dispositivo.
 
 - ¿Como funciona nuestro programa?
 
-El funcionamiento de nuestro programa es que cuando detecte una temperatura mande la informacion al panel de arduino del monitor constantemente para asi comprobar cualquier cambio de temperatura en su adbiente.
+El funcionamiento de nuestro programa es que cuando detecte una humedad mande la informacion al panel de arduino del monitor constantemente para asi comprobar cualquier cambio de humeadad que hay en ese material.
 
 - ¿De que componentes esta hecho nuestro programa?
 
-   Tiene placa de arduino, cableado y cableado de cocodrilo y por ultimo en sensor de sonda de temperatura.
+   Tiene placa de arduino, cableado y cableado de cocodrilo y por ultimo en sensor de humedad.
 
