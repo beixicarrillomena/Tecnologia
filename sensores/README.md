@@ -16,19 +16,15 @@
   
   Estaria compuesto de cables, una placa Arduino, un diodo LED, una resistencia, Sensor PIR, tabla placa protoboard
 
-# Sensor de humeadad
+# Sensor de humedad
 
 - ¿Como funciona?
 
-  Funciona conectando el negativo al GND y el rojo a 5V para concluir que el amarillo se marque a un pin de una placa para tenr la informacion y para concluir que al final de su compuesto de una especia de clavija cual se unde en la tierra para que envie la información
+  Funciona conectando el negativo al GND y el rojo a 5V para concluir que el amarillo se marque a un pin de una placa para tener la informacion y para concluir que al final de su compuesto de una especia de clavija cual se unde en la tierra para que envie la información
 
 - ¿Para que sirve?
   
 Sirve para medir la humedad de cualquier elemento y cuya informacion que extrae lo mande a otro dispositivo.
-
-- ¿Como funciona nuestro programa?
-
-El funcionamiento de nuestro programa es que cuando detecte una humedad mande la informacion al panel de arduino del monitor constantemente para asi comprobar cualquier cambio de humeadad que hay en ese material.
 
 - ¿De que componentes esta hecho nuestro programa?
 
@@ -36,4 +32,4 @@ El funcionamiento de nuestro programa es que cuando detecte una humedad mande la
   
 # ¿Como funciona el programa?
 
-- El programa funciona de lectura aalogica que incluye dos variables cual se le puede llamar de tu gusto con deun inicio de serial begin en el setup y para que el el loop en el analogic read siempre lea el sensor y lo envie a serial print para que salga los datos que envia al sensor al monitor de la consola con un retardo de 500 milisegundos.
+- El funcionamiento de nuestro programa es que cuando detecte una humedad mande la informacion al panel de arduino del monitor constantemente para asi comprobar cualquier cambio de humeadad que hay en ese material. El programa funciona de lectura aalogica que incluye dos variables cual se le puede llamar de tu gusto con deun inicio de serial begin en el setup y para que el el loop en el analogic read siempre lea el sensor y lo envie a serial print para que salga los datos que envia al sensor al monitor de la consola con un retardo de 500 milisegundos.
