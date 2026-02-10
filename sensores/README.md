@@ -20,7 +20,7 @@
 
 - ¿Como funciona?
 
-  Funciona conectando el negativo al GND y el rojo a 5V para concluir que el amarillo se marque a un pin de una placa para tener la informacion y para concluir que al final de su compuesto de una especia de clavija cual se unde en la tierra para que envie la información
+  Funciona conectando el negativo al GND y el rojo a 5V para concluir que el amarillo econectada a una placa de arduino y protoboard y que se marque a un pin de una placa para tener la informacion y para concluir que al final de su compuesto de una especia de clavija cual se unde en la tierra para que envie la información
 
 - ¿Para que sirve?
   
@@ -28,8 +28,25 @@ Sirve para medir la humedad de cualquier elemento y cuya informacion que extrae 
 
 - ¿De que componentes esta hecho nuestro programa?
 
-   Tiene placa de arduino, cableado y cableado de cocodrilo y por ultimo en sensor de humedad.
+   Tiene placa de arduino, placa protoboard, cableado y por ultimo en sensor de humedad.
   
 - ¿Como funciona el programa?
   
 El funcionamiento de nuestro programa es que cuando detecte una humedad mande la informacion al panel de arduino del monitor constantemente para asi comprobar cualquier cambio de humeadad que hay en ese material. El programa funciona de lectura analogica que incluye dos variables cual se le puede llamar de tu gusto con deun inicio de serial begin en el setup y para que el loop en el analogic read siempre lea el sensor y lo envie a serial print para que salga los datos que envia al sensor al monitor de la consola con un retardo de 500 milisegundos.
+
+# Sensor presión
+
+- ¿Como funciona?
+  
+Funciona coectando a una placa arduino y protoboard junto a una resistencia a GND, 5V y a un Pin (ejempl: 8) para que al presionar el circulo con la minima presión que tu programes lo detecte y envie la inforación a la placa de arduino o al monitor en la pantalla con la cifra que el sensor de presión detecte.
+
+- ¿Para que sirve?
+
+Sirve para dectectar una presión cual a detectar una minima presión envie la inforación a la placa y asi la placa con esa información haga una cosa o otra. Pero su función es enviar la información a la placa.
+
+- ¿De que componentes esta hecho nuestro programa?
+
+Esta commpuesto de cableado, placa protoboard, placa arduino, resistencia, sensor de presión.
+
+- ¿Como funciona el programa?
+
