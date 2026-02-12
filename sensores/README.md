@@ -37,6 +37,9 @@ Sirve para medir la humedad de cualquier elemento y cuya informacion que extrae 
   
 El funcionamiento de nuestro programa es que cuando detecte una humedad mande la informacion al panel de arduino del monitor constantemente para asi comprobar cualquier cambio de humeadad que hay en ese material. El programa funciona de lectura analogica que incluye dos variables cual se le puede llamar de tu gusto con deun inicio de serial begin en el setup y para que el loop en el analogic read siempre lea el sensor y lo envie a serial print para que salga los datos que envia al sensor al monitor de la consola con un retardo de 500 milisegundos.
 
+ ![sensor humedad](pictures/sensor_de_humedad_montaje.png)
+
+
 # Sensor presión
 
 - ¿Como funciona?
@@ -47,6 +50,9 @@ Funciona conectando a una placa arduino y protoboard junto a una resistencia a G
 
 Sirve para dectectar una presión cual a detectar una minima presión envie la información a la placa y asi la placa con esa información haga una cosa o otra. Pero su función es enviar la información a la placa.
 
+ ![sensor presión](pictures/sensor_presion.jpg)
+
+
 - ¿De que componentes esta hecho?
 
 Esta compuesto de cableado, placa protoboard, placa arduino, resistencia, sensor de presión.
@@ -54,3 +60,5 @@ Esta compuesto de cableado, placa protoboard, placa arduino, resistencia, sensor
 - ¿Como funciona el programa?
 
 Funciona con tres variables cuales son el valor de presión y el pin, la presión el void setup solo contiene un serial begin 9600 y el void loop valora la presión con analogRead y map ajusta la presión para que sea menos o más sensible a la presión que se le aporta y usa un SerialPrinting para que los datos que detecte la placa de presión lo mande a la pantalla de la consola de monitor de arduino con un delay de 500 milisegundos.
+
+![sensor presión](pictures/sesnsor_presion2.png)
