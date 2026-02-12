@@ -38,15 +38,16 @@ El funcionamiento de nuestro programa es que cuando detecte una humedad mande la
 
 - ¿Como funciona?
   
-Funciona coectando a una placa arduino y protoboard junto a una resistencia a GND, 5V y a un Pin (ejempl: 8) para que al presionar el circulo con la minima presión que tu programes lo detecte y envie la inforación a la placa de arduino o al monitor en la pantalla con la cifra que el sensor de presión detecte.
+Funciona conectando a una placa arduino y protoboard junto a una resistencia a GND, 5V y a un Pin (ejempl: 8) para que al presionar el circulo con la minima presión que tu programes lo detecte y envie la información a la placa de arduino o al monitor en la pantalla con la cifra que el sensor de presión detecte.
 
 - ¿Para que sirve?
 
-Sirve para dectectar una presión cual a detectar una minima presión envie la inforación a la placa y asi la placa con esa información haga una cosa o otra. Pero su función es enviar la información a la placa.
+Sirve para dectectar una presión cual a detectar una minima presión envie la información a la placa y asi la placa con esa información haga una cosa o otra. Pero su función es enviar la información a la placa.
 
 - ¿De que componentes esta hecho nuestro programa?
 
-Esta commpuesto de cableado, placa protoboard, placa arduino, resistencia, sensor de presión.
+Esta compuesto de cableado, placa protoboard, placa arduino, resistencia, sensor de presión.
 
 - ¿Como funciona el programa?
 
+Funciona con tres variantes el void setup solo contiene un serial begin 9600 y el void loop valora la presión con analogRead y map ajusta la presión para que sea menos o más sensible a la presión que se le aporta y usa un SerialPrinting para que los datos que detecte la placa de presión lo mande a la pantalla de la consola de monitor de arduino con un delay de 500 milisegundos.
