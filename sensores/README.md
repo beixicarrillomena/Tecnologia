@@ -12,7 +12,7 @@
   
   El funcionamiento del programa es que desde arduino nos dija si detecta alguien o algo desde el panel de informacion que arduino nos puede proporcionaraprte de icluido que cuando detecte se encienda un diodo LED y se apage cuando no incluyendo que el programa tiene lectura analogica y variables dentro para facilitar su funcionamiento.
 
-- ¿De que esta compuesto el programa?
+- ¿De que esta compuesto?
   
   Estaria compuesto de cables, una placa Arduino, un diodo LED, una resistencia, Sensor PIR, tabla placa protoboard
 
@@ -26,7 +26,7 @@
   
 Sirve para medir la humedad de cualquier elemento y cuya informacion que extrae lo mande a otro dispositivo.
 
-- ¿De que componentes esta hecho nuestro programa?
+- ¿De que componentes esta hecho?
 
    Tiene placa de arduino, placa protoboard, cableado y por ultimo en sensor de humedad.
   
@@ -44,10 +44,10 @@ Funciona conectando a una placa arduino y protoboard junto a una resistencia a G
 
 Sirve para dectectar una presión cual a detectar una minima presión envie la información a la placa y asi la placa con esa información haga una cosa o otra. Pero su función es enviar la información a la placa.
 
-- ¿De que componentes esta hecho nuestro programa?
+- ¿De que componentes esta hecho?
 
 Esta compuesto de cableado, placa protoboard, placa arduino, resistencia, sensor de presión.
 
 - ¿Como funciona el programa?
 
-Funciona con tres variantes el void setup solo contiene un serial begin 9600 y el void loop valora la presión con analogRead y map ajusta la presión para que sea menos o más sensible a la presión que se le aporta y usa un SerialPrinting para que los datos que detecte la placa de presión lo mande a la pantalla de la consola de monitor de arduino con un delay de 500 milisegundos.
+Funciona con tres variables cuales son el valor de presión y el pin, la presión el void setup solo contiene un serial begin 9600 y el void loop valora la presión con analogRead y map ajusta la presión para que sea menos o más sensible a la presión que se le aporta y usa un SerialPrinting para que los datos que detecte la placa de presión lo mande a la pantalla de la consola de monitor de arduino con un delay de 500 milisegundos.
