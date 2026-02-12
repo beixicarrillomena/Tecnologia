@@ -22,6 +22,9 @@
 
   Funciona conectando el negativo al GND y el rojo a 5V para concluir que el amarillo econectada a una placa de arduino y protoboard y que se marque a un pin de una placa para tener la informacion y para concluir que al final de su compuesto de una especia de clavija cual se unde en la tierra para que envie la información
 
+  ![sensor humedad](sensores/pictures/sensor)
+
+
 - ¿Para que sirve?
   
 Sirve para medir la humedad de cualquier elemento y cuya informacion que extrae lo mande a otro dispositivo.
