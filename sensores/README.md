@@ -22,7 +22,7 @@
 
   Funciona conectando el negativo al GND y el rojo a 5V para concluir que el amarillo econectada a una placa de arduino y protoboard y que se marque a un pin de una placa para tener la informacion y para concluir que al final de su compuesto de una especia de clavija cual se unde en la tierra para que envie la información
 
-  ![sensor humedad](pictures/sensor_de_humedad.png)
+ ![sensor humedad](pictures/sensor_humedad_montaje.jpg)
 
 
 - ¿Para que sirve?
@@ -37,7 +37,7 @@ Sirve para medir la humedad de cualquier elemento y cuya informacion que extrae 
   
 El funcionamiento de nuestro programa es que cuando detecte una humedad mande la informacion al panel de arduino del monitor constantemente para asi comprobar cualquier cambio de humeadad que hay en ese material. El programa funciona de lectura analogica que incluye dos variables cual se le puede llamar de tu gusto con deun inicio de serial begin en el setup y para que el loop en el analogic read siempre lea el sensor y lo envie a serial print para que salga los datos que envia al sensor al monitor de la consola con un retardo de 500 milisegundos.
 
- ![sensor humedad](pictures/sensor_humedad_montaje.jpg)
+  ![sensor humedad](pictures/sensor_de_humedad.png)
 
 
 # Sensor presión
