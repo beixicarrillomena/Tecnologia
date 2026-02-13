@@ -62,3 +62,21 @@ Esta compuesto de cableado, placa protoboard, placa arduino, resistencia, sensor
 Funciona con tres variables cuales son el valor de presión y el pin, la presión el void setup solo contiene un serial begin 9600 y el void loop valora la presión con analogRead y map ajusta la presión para que sea menos o más sensible a la presión que se le aporta y usa un SerialPrinting para que los datos que detecte la placa de presión lo mande a la pantalla de la consola de monitor de arduino con un delay de 500 milisegundos.
 
 ![sensor presión](pictures/sesnsor_presion2.png)
+
+# Sensor LDR
+
+- ¿Como funciona?
+
+Funciona con la placa arduino conectada a la protoboard para que el 5v a traves de una resistencia llegue a la parte positiva de la LDR y despues la negativa este directamente conectada a la parte negativa asi concluyendo y comprobando si detecta luz y cuanta intesidad de ella.
+
+- ¿Para que sirve?
+  
+  Sirve para saber cuanta luminosidad detecta en una habitación y la intensidad de la luz.
+
+- ¿De que componente esta hecho?
+
+Placa arduino, placa protoboard, resistencia, cableado y sensor LDR
+
+- ¿Como funciona nuestro programa?
+
+Nuestro programa funciona con 3 variables una es el pin, la luminosidad y la intensidad de la luminosidad en el void setup estara el serial begin 9600 y en el void loop un analogread para saber si la LDR detecta luz o no un map para saber la intensidad que la LDR esta detectando y un serialprinting para que los datos que detecta la LDR salga ahí en la pantalla de la consola de la aplicación de programación de arduino. 
