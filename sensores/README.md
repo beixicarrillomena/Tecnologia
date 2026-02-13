@@ -106,3 +106,20 @@ Placa arduino, cableado y sensor de agua
 funciona con 3 variables uno de pin, otro del sensor de agua y la cantidad de ella en el void setup esta en serialbegin 9600 y en el serial loop esta el analogread cual es el pin map cual es la cantidad exacta de agua que detecta y serial priting que muestra los datos que detecta en sensor en la pantalla de la consola terminando con un delay de 500 milisegundos
 
  ![sensor agua](pictures/sensor_agua.png)
+
+
+# Sensor temperatura lineal
+
+- ¿Como funciona?
+
+
+
+- ¿Para que sirve?
+
+
+
+- ¿De que componente esta hecho?
+
+
+
+- ¿Como funciona nuestro programa?
