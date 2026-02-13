@@ -82,7 +82,7 @@ Placa arduino, placa protoboard, resistencia, cableado y sensor LDR
 
 - ¿Como funciona nuestro programa?
 
-Nuestro programa funciona con 3 variables una es el pin, la luminosidad y la intensidad de la luminosidad en el void setup estara el serial begin 9600 y en el void loop un analogread para saber si la LDR detecta luz o no un map para saber la intensidad que la LDR esta detectando y un serialprinting para que los datos que detecta la LDR salga ahí en la pantalla de la consola de la aplicación de programación de arduino. 
+Nuestro programa funciona con 3 variables una es el pin, la luminosidad y la intensidad de la luminosidad en el void setup estara el serial begin 9600 y en el void loop un analogread para saber si la LDR detecta luz o no un map para saber la intensidad que la LDR esta detectando y un serialprinting para que los datos que detecta la LDR salga ahí en la pantalla de la consola de la aplicación de programación de arduino terminando con un delay de 500 milisegundos. 
 
 
  ![sensor LDR](pictures/ldr_code.png)
@@ -91,14 +91,16 @@ Nuestro programa funciona con 3 variables una es el pin, la luminosidad y la int
 
 - ¿Como funciona?
 
-
+Funciona solo con una placa arduino y el sensor de agua sumergiendolo en cualquier recipiente claramente conectado a un pin, GND y 5v
 
 - ¿Para que sirve?
 
-
+Para saber cuanta agua hay en un recipiente
 
 - ¿De que componente esta hecho?
 
-
+Placa arduino, cableado y sensor de agua
 
 - ¿Como funciona nuestro programa?
+
+funciona con 3 variables uno de pin, otro del sensor de agua y la cantidad de ella en el void setup esta en serialbegin 9600 y en el serial loop esta el analogread cual es el pin map cual es la cantidad exacta de agua que detecta y serial priting que muestra los datos que detecta en sensor en la pantalla de la consola terminando con un delay de 500 milisegundos
