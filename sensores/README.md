@@ -86,3 +86,15 @@ Nuestro programa funciona con 3 variables una es el pin, la luminosidad y la int
 
 
  ![sensor LDR](pictures/ldr_code.png)
+
+# Sensor de agua
+
+- ¿Como funciona?
+
+
+- ¿Para que sirve?
+
+- ¿De que componente esta hecho?
+
+
+- ¿Como funciona nuestro programa?
