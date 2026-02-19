@@ -2,19 +2,19 @@
 
 - ¿Como funciona?
   
-  Su funcionamiento es detectar a personas/ objetos cual detectar su rango actue para "X" cosa por ejemplo si quieres que cuando el sensor PIR detecte alguien o algo mande una señal para que un reproductor de musica haga un  sonido se puede hacer.
+  Su funcionamiento es detectar a personas/ objetos cuál detectar su rango actue para "X" cosa por ejemplo si quieres que cuando el sensor PIR detecte alguien o algo mande una señal para que un reproductor de música haga un  sonido se puede hacer.
 
-- ¿Para que sirve?
+- ¿Para qué sirve?
   
-  Sirve para detectar alguien o algo dependiendo del rango ajustado que le pongas cual se puede modificar con un destornillador para que detecte desde cierto rango para que su funcion sea más eficiente.
+  Sirve para detectar alguien o algo dependiendo del rango ajustado que le pongas cual se puede modificar con un destornillador para que detecte desde cierto rango para que su función sea más eficiente.
 
 - ¿Como funciona el programa?
   
-  El funcionamiento del programa es que desde arduino nos dija si detecta alguien o algo desde el panel de informacion que arduino nos puede proporcionaraprte de icluido que cuando detecte se encienda un diodo LED y se apage cuando no incluyendo que el programa tiene lectura analogica y variables dentro para facilitar su funcionamiento.
+  El funcionamiento del programa es que desde arduino nos diga si detecta alguien o algo desde el panel de información que arduino nos puede proporcionar aparte de incluido que cuando detecte se encienda un diodo LED y se apage cuando no incluyendo que el programa tiene lectura analogica y variables dentro para facilitar su funcionamiento.
 
 - ¿De que esta compuesto?
   
-  Estaria compuesto de cables, una placa Arduino, un diodo LED, una resistencia, Sensor PIR, tabla placa protoboard
+  Estaría compuesto de cables, una placa Arduino, un diodo LED, una resistencia, Sensor PIR, tabla placa protoboard
 
 # Sensor de humedad
 
@@ -37,10 +37,10 @@ Sirve para medir la humedad de cualquier elemento y cuya informacion que extrae 
   
 El funcionamiento de nuestro programa es que cuando detecte una humedad mande la informacion al panel de arduino del monitor constantemente para asi comprobar cualquier cambio de humeadad que hay en ese material. El programa funciona de lectura analogica que incluye dos variables cual se le puede llamar de tu gusto con deun inicio de serial begin en el setup y para que el loop en el analogic read siempre lea el sensor y lo envie a serial print para que salga los datos que envia al sensor al monitor de la consola con un retardo de 500 milisegundos.
 
-[![](https://img.youtube.com/vi/R8Fm3tOMFYk/0.jpg)](https://www.youtube.com/watch?v=R8Fm3tOMFYk)
-
-
   ![sensor humedad](pictures/sensor_de_humedad.png)
+
+
+  [![](https://img.youtube.com/vi/R8Fm3tOMFYk/0.jpg)](https://www.youtube.com/watch?v=R8Fm3tOMFYk)
 
 
 # Sensor presión
@@ -64,10 +64,9 @@ Esta compuesto de cableado, placa protoboard, placa arduino, resistencia, sensor
 
 Funciona con tres variables cuales son el valor de presión y el pin, la presión el void setup solo contiene un serial begin 9600 y el void loop valora la presión con analogRead y map ajusta la presión para que sea menos o más sensible a la presión que se le aporta y usa un SerialPrinting para que los datos que detecte la placa de presión lo mande a la pantalla de la consola de monitor de arduino con un delay de 500 milisegundos.
 
-[![](https://img.youtube.com/vi/3YupFbgY81k/0.jpg)](https://www.youtube.com/watch?v=3YupFbgY81k)
-
-
 ![sensor presión](pictures/sesnsor_presion2.png)
+
+[![](https://img.youtube.com/vi/3YupFbgY81k/0.jpg)](https://www.youtube.com/watch?v=3YupFbgY81k)
 
 # Sensor LDR
 
@@ -90,10 +89,10 @@ Placa arduino, placa protoboard, resistencia, cableado y sensor LDR
 
 Nuestro programa funciona con 3 variables una es el pin, la luminosidad y la intensidad de la luminosidad en el void setup estara el serial begin 9600 y en el void loop un analogread para saber si la LDR detecta luz o no un map para saber la intensidad que la LDR esta detectando y un serialprinting para que los datos que detecta la LDR salga ahí en la pantalla de la consola de la aplicación de programación de arduino terminando con un delay de 500 milisegundos. 
 
-[![](https://img.youtube.com/vi/Yh9sCnXlxm4/0.jpg)](https://www.youtube.com/watch?v=Yh9sCnXlxm4)
-
-
  ![sensor LDR](pictures/ldr_code.png)
+
+ [![](https://img.youtube.com/vi/Yh9sCnXlxm4/0.jpg)](https://www.youtube.com/watch?v=Yh9sCnXlxm4)
+
 
 # Sensor de agua
 
