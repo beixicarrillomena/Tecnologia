@@ -114,16 +114,16 @@ funciona con 3 variables uno de pin, otro del sensor de agua y la cantidad de el
 
 Funciona conectando a la placa de arduino conectado  al cableado para que el sensor de temperatura lineal pueda detectar los datos y poder leerlo por ejemplo en la pestaña de la consola  de arduino de su app.
 
-- ¿Para que sirve?
+- ¿Para qué sirve?
 
 Para detectar temperaturas de una forma lineal en nuestro entorno.
 
-- ¿De que componente esta hecho?
+- ¿De qué componente está hecho?
 
-Placa de arduino, sensor de temperastura lienal con cableados.
+Placa de arduino, sensor de temperatura lineal con cableados.
 
 - ¿Como funciona nuestro programa?
 
-Como los demas,  Ponemos dos variantes y en el void setup eañadimos un serialbegin9600 y el void loop un analogicread cual lee a la variante PIN y cual equivale a la temperatura es la innformación que la variante PIN más map y termina con Serial  pritting que al ver el valor de temperatura lo envia a la consola de la app de arduino viendo el valor de temperatura que envia cual termina con un delay de 500 milisegundos.
+Como los demás,  Ponemos dos variantes y en el void setup añadimos un serialbegin9600 y el void loop un analogicread cual lee a la variante PIN y cual equivale a la temperatura es la información que la variante PIN más map y termina con Serial  pritting que al ver el valor de temperatura lo envía a la consola de la app de arduino víendo el valor de temperatura que envia cual termina con un delay de 500 milisegundos.
 
  ![sensor temperatura lineal](pictures/programacion_temperaturalineal_iker,adrian.png)
