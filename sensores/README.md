@@ -25,9 +25,9 @@
  ![sensor humedad](pictures/sensor_humedad_montaje.jpg)
 
 
-- ¿Para que sirve?
+- ¿Para qué sirve?
   
-Sirve para medir la humedad de cualquier elemento y cuya informacion que extrae lo mande a otro dispositivo.
+Sirve para medir la humedad de cualquier elemento y cuya información que extrae lo mande a otro dispositivo.
 
 - ¿De que componentes esta hecho?
 
@@ -35,7 +35,7 @@ Sirve para medir la humedad de cualquier elemento y cuya informacion que extrae 
   
 - ¿Como funciona el programa?
   
-El funcionamiento de nuestro programa es que cuando detecte una humedad mande la informacion al panel de arduino del monitor constantemente para asi comprobar cualquier cambio de humeadad que hay en ese material. El programa funciona de lectura analogica que incluye dos variables cual se le puede llamar de tu gusto con deun inicio de serial begin en el setup y para que el loop en el analogic read siempre lea el sensor y lo envie a serial print para que salga los datos que envia al sensor al monitor de la consola con un retardo de 500 milisegundos.
+El funcionamiento de nuestro programa es que cuando detecte una humedad mande la información al panel de arduino del monitor constantemente para asi comprobar cualquier cambio de humedad que hay en ese material. El programa funciona de lectura analogica que incluye dos variables cual se le puede llamar de tu gusto con deun inicio de serial begin en el setup y para que el loop en el analogic read siempre lea el sensor y lo envíe a serial print para que salga los datos que envía al sensor al monitor de la consola con un retardo de 500 milisegundos.
 
   ![sensor humedad](pictures/sensor_de_humedad.png)
 
