@@ -47,18 +47,18 @@ El funcionamiento de nuestro programa es que cuando detecte una humedad mande la
 
 - ¿Como funciona?
   
-Funciona conectando a una placa arduino y protoboard junto a una resistencia a GND, 5V y a un Pin (ejempl: 8) para que al presionar el circulo con la minima presión que tu programes lo detecte y envie la información a la placa de arduino o al monitor en la pantalla con la cifra que el sensor de presión detecte.
+Funciona conectando a una placa arduino y protoboard junto a una resistencia a GND, 5V y a un Pin (ejempl: 8) para que al presionar el circulo con la mínima presión que tu programes lo detecte y envíe la información a la placa de arduino o al monitor en la pantalla con la cifra que el sensor de presión detecte.
 
-- ¿Para que sirve?
+- ¿Para qué sirve?
 
-Sirve para dectectar una presión cual a detectar una minima presión envie la información a la placa y asi la placa con esa información haga una cosa o otra. Pero su función es enviar la información a la placa.
+Sirve para detectar una presión cual a detectar una mínima presión envíe la información a la placa y así la placa con esa información haga una cosa o otra. Pero su función es enviar la información a la placa.
 
  ![sensor presión](pictures/sensor_presion.jpg)
 
 
-- ¿De que componentes esta hecho?
+- ¿De qué componentes está hecho?
 
-Esta compuesto de cableado, placa protoboard, placa arduino, resistencia, sensor de presión.
+Está compuesto de cableado, placa protoboard, placa arduino, resistencia, sensor de presión.
 
 - ¿Como funciona el programa?
 
@@ -72,22 +72,22 @@ Funciona con tres variables cuales son el valor de presión y el pin, la presió
 
 - ¿Como funciona?
 
-Funciona con la placa arduino conectada a la protoboard para que el 5v a traves de una resistencia llegue a la parte positiva de la LDR y despues la negativa este directamente conectada a la parte negativa asi concluyendo y comprobando si detecta luz y cuanta intesidad de ella.
+Funciona con la placa arduino conectada a la protoboard para que el 5v a través de una resistencia llegue a la parte positiva de la LDR y despues la negativa esté directamente conectada a la parte negativa asi concluyendo y comprobando si detecta luz y cuanta intensidad de ella.
 
  ![sensor LDR](pictures/ldr_real.jpg)
 
 
 - ¿Para que sirve?
   
-  Sirve para saber cuanta luminosidad detecta en una habitación y la intensidad de la luz.
+  Sirve para saber cuánta luminosidad detecta en una habitación y la intensidad de la luz.
 
-- ¿De que componente esta hecho?
+- ¿De qué componente esta hecho?
 
 Placa arduino, placa protoboard, resistencia, cableado y sensor LDR
 
 - ¿Como funciona nuestro programa?
 
-Nuestro programa funciona con 3 variables una es el pin, la luminosidad y la intensidad de la luminosidad en el void setup estara el serial begin 9600 y en el void loop un analogread para saber si la LDR detecta luz o no un map para saber la intensidad que la LDR esta detectando y un serialprinting para que los datos que detecta la LDR salga ahí en la pantalla de la consola de la aplicación de programación de arduino terminando con un delay de 500 milisegundos. 
+Nuestro programa funciona con 3 variables una es el pin, la luminosidad y la intensidad de la luminosidad en el void setup estará el serial begin 9600 y en el void loop un analogread para saber si la LDR detecta luz o no un map para saber la intensidad que la LDR está detectando y un serialprinting para que los datos que detecta la LDR salga ahí en la pantalla de la consola de la aplicación de programación de arduino terminando con un delay de 500 milisegundos. 
 
  ![sensor LDR](pictures/ldr_code.png)
 
@@ -100,11 +100,11 @@ Nuestro programa funciona con 3 variables una es el pin, la luminosidad y la int
 
 Funciona solo con una placa arduino y el sensor de agua sumergiendolo en cualquier recipiente claramente conectado a un pin, GND y 5v
 
-- ¿Para que sirve?
+- ¿Para qué sirve?
 
-Para saber cuanta agua hay en un recipiente
+Para saber cuantá agua hay en un recipiente
 
-- ¿De que componente esta hecho?
+- ¿De qué componente está hecho?
 
 Placa arduino, cableado y sensor de agua
 
