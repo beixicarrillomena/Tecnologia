@@ -112,14 +112,14 @@ funciona con 3 variables uno de pin, otro del sensor de agua y la cantidad de el
 
 - ¿Como funciona?
 
-
+Funciona conectando a la placa de arduino conectado  al cableado para que el sensor de temperatura lineal pueda detectar los datos y poder leerlo por ejemplo en la pestaña de la consola  de arduino de su app.
 
 - ¿Para que sirve?
 
-
+Para detectar temperaturas de una forma lineal en nuestro entorno.
 
 - ¿De que componente esta hecho?
 
-
+Placa de arduino, sensor de temperastura lienal con cableados.
 
 - ¿Como funciona nuestro programa?
