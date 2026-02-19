@@ -131,6 +131,6 @@ Placa de arduino, sensor de temperatura lineal con cableados.
 
 - ¿Como funciona nuestro programa?
 
-Como los demás,  Ponemos dos variantes y en el void setup añadimos un serialbegin9600 y el void loop un analogicread cual lee a la variante PIN y cual equivale a la temperatura es la información que la variante PIN más map y termina con Serial  pritting que al ver el valor de temperatura lo envía a la consola de la app de arduino víendo el valor de temperatura que envia cual termina con un delay de 500 milisegundos.
+Como los demás,  Ponemos dos variantes y en el void setup añadimos un serialbegin9600 y el void loop un analogicread cual lee a la variante PIN y cual equivale a la temperatura es la información que la variante PIN más map y termina con Serial  pritting que al ver el valor de temperatura lo envía a la consola de la app de arduino viendo el valor de temperatura que envía cual termina con un delay de 500 milisegundos.
 
  ![sensor temperatura lineal](pictures/programacion_temperaturalineal_iker,adrian.png)
