@@ -10,3 +10,12 @@
 
    
  ![pilares](imagenes/pilartry.png)
+
+- Los pilares tienen unnas medidas exacta de largo y ancho si tiene salidas igual que tienen una medidas exactas las entrandas añadiendo centimetros
+
+  # Suelo
+
+- El suelo es muy parecido a los pilares también siendo  distribuido entre alumnos y con entradas y salidas solo que con distintas medidas y en si funcionnes el suelo esta enumerados por letras y números
+
+  
+ ![suelo](imagenes/3D_qui.png)
