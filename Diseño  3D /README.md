@@ -6,4 +6,7 @@
 
   # Pilares
 
- - El  inicio del  proyecto fue con los pilares cuales se mando hacer autonoma por la falta de asistencia del profesorado los pilares pueden tener o una "salida" o una "entrada" o varias normalmente 2 o más para unir los pilares y ser estable, se mandaron a hacer 2 por cada persona 
+ - El  inicio del  proyecto fue con los pilares cuales se mando hacer autonoma por la falta de asistencia del profesorado los pilares pueden tener o una "salida" o una "entrada" o varias normalmente 2 o más para unir los pilares y ser estable, se mandaron a hacer 2 por cada persona
+
+   
+ ![pilares](imagenes/3D_qui.png)
