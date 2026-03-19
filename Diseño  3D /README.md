@@ -20,7 +20,7 @@
  
 - Es suelo debe de tener un espacio para que los pilares encajen y no se descoloquen permitiendo una mayor estabilidad y también espacios para que otros suelos encajen en él haciendo que sea menos probable el descolocamiento. Por ejemplo aqui una imagen del todo el proyecto para enseñar como estan los suelos y pilares y vigas
 
-   ![invernadero diseño](imagenes/invernadero_diseño.png)
+   ![invernadero diseño](imagenes/Invernadero_diseño.png)
 
 - Cuando el diseño 3D está preparado y se imprima recordando que número tiene asignado se conecta con los pilares y otros suelos
 
