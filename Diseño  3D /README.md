@@ -2,7 +2,7 @@
 
 ## Cual es el objetivo
 
-- El proyecto trata sobre diseñar en 3D un nuevo diseño para el invernadero como distribución de pilares y suelo  cuales se dividieron en partes para cada integrante de clase teniendo pilares y suelos distintos.
+- El proyecto trata sobre diseñar en 3D un nuevo diseño para el invernadero como distribución de pilares y suelo  cuales se dividieron en partes para cada integrante de clase teniendo pilares y suelos distintos para cuando  se unan asi formar una estructura totalmente estable y autonoma que se pueda hasta levanar sin descomponerse
 
   ## Pilares y vigas
 
