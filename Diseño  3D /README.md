@@ -23,6 +23,10 @@
 
 - Cuando el diseño  3D está preparado y se imprima recordando que número tiene asignado se conecta con los pilares y otros suelos
 
+  ![impresión 3D](imagenes/impresion_4A.jpg)
+
   # Final del proyecto
 
   - Al juntar las piezas y los suelos formando la estrucutra del diseño 3D del invernadero debe de quedar una estrucutra perfectamente concluyendo como un rectanguló y así una estructura totalmente estable para el  invernadero.
+ 
+    ![forma final invernadero](imagenes/froma_final_invernadero.jpg)
