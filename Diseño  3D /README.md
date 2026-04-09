@@ -33,9 +33,9 @@
     ![forma final invernadero](imagenes/froma_final_invernadero.jpg)
 
 
-## Objetivo del programa implementado a nuestro invernadero
+##  Problema y objetivo del programa implementado a nuestro invernadero
 
-- Despues de montar la base se pondra el programa del invernadero. Cual es un montaje que te avisa si hace poco/mucha temperatura y agua y riega automaticamente las plantas con varios sensonres, siendo casi totalmente autonomo para cumplir el objetivo de elinvernadero automatico.
+- El problema es la necesidad de renovación del invernadero y de como adaptarlo más a la tecnologia y que sea casi automativco para que no necesite tanta mano humana durante su función. Por  eso despues de montar la base  se pondra el programa del invernadero. Cual es un montaje que te avisa si hace poco/mucha temperatura y agua y riega automaticamente las plantas con varios sensonres, siendo casi totalmente autonomo para cumplir el objetivo de elinvernadero automatico.
  
 
 ## ¿De que esta compuesto?
