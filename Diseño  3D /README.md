@@ -32,3 +32,16 @@
  
     ![forma final invernadero](imagenes/froma_final_invernadero.jpg)
 
+
+  ## Objetivo del programa implementado a nuestro invernadero
+
+  - Despues de montar la base se pondra el programa del invernadero. Cual es un montaje que te avisa si hace poco/mucha temperatura y agua y riega automaticamente las plantas con varios sensonres, siendo casi totalmente autonomo para cumplir el objetivo de elinvernadero automatico.
+ 
+
+## ¿De que esta compuesto?
+
+- El programa esta compuesto de el cableado, un sensor de agua, un sensor de temperatura, un sensor de humedad, un relé, una bomba de agua, una bateria, una resistencia y dos diodos LED.
+
+## ¿Como funcuona el programa?
+
+- Comenzamos explicando el funcionamiento de los diodos LED cuales son encenderse y apagarse como una luz itermitente dependiendo de si detecta alta/baja temperatura o agua son dos para diferenciar cual es cual de aviso. Despues estalos sensores, el de temperatura es para detectar la temperatura de las plantas en el invernadero para regar o no, ya que si hace mucho calor no es recomendable. El sensor de humedad es casi lo mismo que el de temperatura solo que si detecta poca humedad mandar una señal para regar las plantas, y el sensor de agua es para detectar el nivel de agua que hay en el recipiente y dar aviso si hayq que rellenarlo o no. El relé es para cuando el recibe una señal de encender la bomba como un itermitente con la suficiente alimentaci.on de la bateria.
