@@ -33,9 +33,9 @@
     ![forma final invernadero](imagenes/froma_final_invernadero.jpg)
 
 
-  ## Objetivo del programa implementado a nuestro invernadero
+## Objetivo del programa implementado a nuestro invernadero
 
-  - Despues de montar la base se pondra el programa del invernadero. Cual es un montaje que te avisa si hace poco/mucha temperatura y agua y riega automaticamente las plantas con varios sensonres, siendo casi totalmente autonomo para cumplir el objetivo de elinvernadero automatico.
+- Despues de montar la base se pondra el programa del invernadero. Cual es un montaje que te avisa si hace poco/mucha temperatura y agua y riega automaticamente las plantas con varios sensonres, siendo casi totalmente autonomo para cumplir el objetivo de elinvernadero automatico.
  
 
 ## ¿De que esta compuesto?
@@ -45,3 +45,9 @@
 ## ¿Como funcuona el programa?
 
 - Comenzamos explicando el funcionamiento de los diodos LED cuales son encenderse y apagarse como una luz itermitente dependiendo de si detecta alta/baja temperatura o agua son dos para diferenciar cual es cual de aviso. Despues estalos sensores, el de temperatura es para detectar la temperatura de las plantas en el invernadero para regar o no, ya que si hace mucho calor no es recomendable. El sensor de humedad es casi lo mismo que el de temperatura solo que si detecta poca humedad mandar una señal para regar las plantas, y el sensor de agua es para detectar el nivel de agua que hay en el recipiente y dar aviso si hayq que rellenarlo o no. El relé es para cuando el recibe una señal de encender la bomba como un itermitente con la suficiente alimentaci.on de la bateria.
+
+
+## ¿Como es el programa?
+
+- El programa funciona primero creando las variables que son los sensores, Leds y el relé aparte de incluir mapeoh y entrada.
+  El relé y Led se programan igual con su Pinmode desactivado en void setup al inicio cuando recibe una señal de un sensor con el DigitalWrite hace una acción cual las dos es actuar como un intermitente solo que la led es apagarse y encenderse continuamente y el relé es activar y desactivar la bomba continuamnete en void loop. Los sensores todos estan programados igual hya que en si es como deberia empezar en void setup el diital write activado para que despues en void loop el analogread este atento los tres sensores
