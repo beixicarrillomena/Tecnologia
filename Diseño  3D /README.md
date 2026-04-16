@@ -48,6 +48,9 @@
 - Comenzamos explicando el funcionamiento de los diodos LED cuales son encenderse y apagarse como una luz itermitente dependiendo de si detecta alta/baja temperatura o agua son dos para diferenciar cual es cual de aviso añadiendo que los modulos bluetooth tambien recibira la señal de esos diodos para encender otro diodos a distancia para asi mostrarlo más comodamente, un diodo de maestro y otro de esclavo. Despues estalos sensores, el de temperatura es para detectar la temperatura de las plantas en el invernadero para regar o no, ya que si hace mucho calor no es recomendable. El sensor de humedad es casi lo mismo que el de temperatura solo que si detecta poca humedad mandar una señal para regar las plantas, y el sensor de agua es para detectar el nivel de agua que hay en el recipiente y dar aviso si hayq que rellenarlo o no. El relé es para cuando el recibe una señal de encender la bomba como un itermitente con la suficiente alimentaci.on de la bateria.
 
 
+   ![hardware](imagenes/perspectiva.jpg)
+
+
 ## ¿Como es el programa?
 
 - El programa funciona primero creando las variables que son los sensores, Leds y el relé aparte de incluir mapeoh y entrada.
