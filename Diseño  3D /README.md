@@ -51,9 +51,17 @@
    ![hardware](imagenes/perspectiva.jpg)
 
 
-## ¿Como es el programa?
+## ¿Como es el programa del maestro?
 
-- El programa funciona primero creando las variables que son los sensores, Leds y el relé aparte de incluir mapeoh y entrada.
-  El relé y Led se programan igual con su Pinmode desactivado en void setup al inicio cuando recibe una señal de un sensor con el DigitalWrite hace una acción cual las dos es actuar como un intermitente solo que la led es apagarse y encenderse continuamente y el relé es activar y desactivar la bomba continuamnete en void loop. Los sensores todos estan programados casi igual hya que en si es como deberia empezar en void setup el digital write activado para que despues en void loop el analogread este atento los tres sensores para que el mapeoh (menos el sensor de temperatura y agua que no tiene mapeoh y tiene otro codigo aahí) y el serial print determinen los valores que detecta los sensores para asi saber si enviar y mandar un aviso a los leds o relé y mosntrarnos los datos con digital write con un delay de 100 milisegundos. La bomba solo se activa y desactiva cuando el relé se lo ordene concluyendo con el programa. 
+EXPLICAR LINEA POR LINEA
 
    ![programainterno](imagenes/programaInterno.png)
+
+  
+  
+## ¿Como es el programa del esclavo?
+
+
+
+
+## ¿Como se configura los modulos bluetooth?
