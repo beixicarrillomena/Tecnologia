@@ -217,6 +217,66 @@ if de humedad es mayor a 50% sin nada más todos los leds se apagan por el digit
 ## ¿Como es el programa del esclavo?
 
 
+CÓDIGO ESCLAVO:
+
+#include <SoftwareSerial.h>
+SoftwareSerial miBT(10,11);
+
+
+
+ Incluye el objeto variable "miBT" haciendole referencia al softwareserial para hacerle saber que es un bluetooth
+
+
+
+
+int ledagua = 5;
+int ledtemperatura = 6;
+
+
+int es la variable de ledagua y ledtemperatura cuyas entradas son 5 y 6. 5 para agua y 6 paa temperatura
+
+void setup() {
+  Serial.begin(9600);
+  miBT.begin(9600);
+  pinMode(ledagua,OUTPUT);
+  pinMode(ledtemperatura,OUTPUT);
+}
+
+
+El voidsetup comienza con el serial begin y miBT para recopilen la informacion y preparando los pinMode para recibir la informacion correspondiente
+
+void loop() {
+  if (miBT.available()){
+      int dato = miBT.read();
+      Serial.println (dato);
+      if (dato==1){
+        digitalWrite(ledagua, HIGH);
+       
+      }
+
+
+if el dato que recibe el modulo bluetooth se lee con miBTread que se le pasa a la lectura serialprin cuya resultad es 1 el led de agua se enciende
+      
+     
+      if (dato==2){
+        digitalWrite(ledagua, LOW);
+      }
+
+si el if que recibio no es uno 1 sino 2 significa que el led de agua se apaga
+
+      
+      if (dato==3){
+        digitalWrite(ledtemperatura, HIGH);
+      }
+     
+      if (dato==4||dato==5){
+        digitalWrite(ledtemperatura, LOW);
+      }
+  }
+
+}
+
+
 
 
 ## ¿Como se configura los modulos bluetooth?
