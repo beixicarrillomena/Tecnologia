@@ -67,7 +67,7 @@ float temperatura; //Datos temperatura
 // Pines salida
 int led = 5; //LED rojo                                                           int del led rojo cual su salida es 5
 int rele = 2; // Relé                                                             int del relé cual su salida es 2
-int ledagua=6; //LED azul                                                         int de led azul cual su salda es 6
+int ledagua=6; //LED azul                                                         int de led azul cual su salida es 6
 
 // Variables sensor humedad
 int pinsensorhumedad = A0;                                                       La variables de sensor de humedad que su salida es el A0 in sy variable de entrada
@@ -143,6 +143,10 @@ Actua como lectura analogica de la información que recibe el porcentaje de agua
     miBT.write(1);
     digitalWrite(led, LOW);
     digitalWrite(rele, HIGH);
+    
+
+if dice que si el nivel de agua es menor a 30% la lectura digital i el miBT envia esa información a led que lo apaga y al relé que lo apaga también
+
    
   }
   //Nivel de agua óptimo, paramos LED azul y vemos si debemos regar
@@ -157,6 +161,11 @@ Actua como lectura analogica de la información que recibe el porcentaje de agua
           miBT.write(3);
           digitalWrite (rele, HIGH);
         }
+
+   if dice que si el agua el mayor de 30% apagamos led azul pero if humedad y temperatura es mayor de 50% el digital write y miBT enviara la informacion para         encedner led rojo y apagar relé  
+
+
+        
         //Si la temperatura es baja entonces regamos (LED rojo apagado y activamos el relé)
         if (temperatura < 50){
           digitalWrite (led, LOW);
@@ -164,6 +173,13 @@ Actua como lectura analogica de la información que recibe el porcentaje de agua
           digitalWrite (rele, LOW);
         }
     }
+
+
+
+    if temperatura es menor de 50% digitalwrite y miBt  apaga el led rojo y Enciende el relé
+    
+  
+    
     //Si la humedad es alta no regamos ni damos señal de advertencia
     if (humedad > 50){
       digitalWrite (led, LOW);
@@ -175,6 +191,11 @@ Actua como lectura analogica de la información que recibe el porcentaje de agua
  
   delay (20);
 }
+
+
+if de humedad es mayor a 50% sin nada más todos los leds se apagan por el digital write y el relé tamben
+
+
 
    ![programainterno](imagenes/programaInterno.png)
 
