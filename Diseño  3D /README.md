@@ -76,39 +76,63 @@ int humedad; //Datos humedad
 
 
 // Variables sensor nivel de agua
-int pinsensoragua=A1;                                                            La vaiable del sensor de nivel de agua cual esA1 y su variable de entrada
-int entradaagua;
+int pinsensoragua=A1;                                                           
 int agua; //Datos nivel agua
 
 
+  La vaiable del sensor de nivel de agua cual esA1 y su variable de entrada
 
-
-void setup() {                                                                    En el void set up la lectura analogica y el de sensor bluetooth comienza
+void setup() {                                                                  
 Serial.begin(9600);
-miBT.begin(9600);                                                                 tambien  los pinMode en output paa que esten listos para recibir información
+miBT.begin(9600);                                                                 
 pinMode(ledagua,OUTPUT);
 pinMode (led, OUTPUT);
 pinMode (rele, OUTPUT);
 
 }
 
+
+
+ Activa el serial begin y el miBT para leer lainformacion de las entradas
+ tambien  los pinMode en output paa que esten listos para recibir información
+
+
+
 void loop() {
-  entradaagua = analogRead(pinsensoragua);                                      Actua como lectura analogica de la información que recibe el porcentaje de agua
-  agua = map(entradaagua, 0, 1023, 0, 100);                                     en el recipiente y se lo configura con map para que sea de su maximo a 0 a 100      //Serial.print ("Nivel agua: ");  Serial.print(agua); Serial.println(" %");    al panel de control, relé y LEDS termnando con un delay de 20 milisegundos
-  delay(20);
+  entradaagua = analogRead(pinsensoragua);                                    
+  agua = map(entradaagua, 0, 1023, 0, 100);                                  
+  //Serial.print ("Nivel agua: ");  Serial.print(agua); Serial.println(" %");    
+    delay(20);
+
+
+Actua como lectura analogica de la información que recibe el porcentaje de agua
+ en el recipiente y se lo configura con map para que sea de su maximo a 0 a 100
+ al panel de control, relé y LEDS termnando con un delay de 20 milisegundos
 
  
-  entradatemperatura = analogRead(pinsensortemperatura);                       Hace otra lectura analogica ajustando su entrada de 50/1024 grados celsius con una                                                                                  calculo sin Map y envia
-  temperatura=(entradatemperatura* 50.0 / 1024.0);                             los datos de entrada al panel de control, relé y LEDS terminando con otro delay de 
-  //Serial.print("Temperatura: "); Serial.print (temperatura); Serial.println(" ºC");                                                              20 milisegundos
+  entradatemperatura = analogRead(pinsensortemperatura);                                                                                                     
+  temperatura=(entradatemperatura* 50.0 / 1024.0);                           
+  //Serial.print("Temperatura: "); Serial.print (temperatura); Serial.println(" ºC");                                                            
   delay(20);
 
+
+ Hace otra lectura analogica ajustando su entrada de 50/1024 grados celsius con una
+ calculo sin Map y envia
+  los datos de entrada al panel de control, relé y LEDS terminando con otro delay de 
+  20 milisegundos
  
-  entradahumedad = analogRead(pinsensorhumedad);                              Hace otralectura analogica de la entrada del sensor pasando su limites de 0 a 1023 a
-  humedad=map(entradahumedad, 0, 1023, 0, 100);                               0 a 100  con map siendo un valor elatvo pasando su entrada al panel de control, relé 
-  //Serial.print("Valor humedad relativa: "); Serial.print (humedad); Serial.println(" %");    y LEDS terminando con un delay de 20
+  entradahumedad = analogRead(pinsensorhumedad);                             
+  humedad=map(entradahumedad, 0, 1023, 0, 100);                              
+  //Serial.print("Valor humedad relativa: "); Serial.print (humedad); Serial.println(" %");    
   delay (20);
   //miBT.print(agua);
+
+
+  Hace otralectura analogica de la entrada del sensor pasando su limites de 0 a 1023 a
+   0 a 100  con map siendo un valor elatvo pasando su entrada al panel de control, relé 
+  y LEDS terminando con un delay de 20
+
+  
  /*A TENER EN CUENTA:
     - La programación del relé está funcionado al revés para hacer que funcione correctamente.
  */
