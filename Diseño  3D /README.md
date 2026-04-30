@@ -172,7 +172,7 @@ if dice que si el nivel de agua es menor a 30% la lectura digital i el miBT envi
           miBT.write(5);
           digitalWrite (rele, LOW);
         }
-    }
+    
 
 
 
@@ -193,7 +193,7 @@ if dice que si el nivel de agua es menor a 30% la lectura digital i el miBT envi
 }
 
 
-if de humedad es mayor a 50% sin nada más todos los leds se apagan por el digital write y el relé tamben
+if de humedad es mayor a 50% sin nada más todos los leds se apagan por el digital write y el relé tamibenterminando con un delay de 20 milisegundos
 
 
 
