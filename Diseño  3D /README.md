@@ -93,8 +93,10 @@ pinMode (rele, OUTPUT);
 
 
 
+
  Activa el serial begin y el miBT para leer lainformacion de las entradas
  tambien  los pinMode en output paa que esten listos para recibir información
+
 
 
 
@@ -105,9 +107,11 @@ void loop() {
     delay(20);
 
 
+
 Actua como lectura analogica de la información que recibe el porcentaje de agua
  en el recipiente y se lo configura con map para que sea de su maximo a 0 a 100
  al panel de control, relé y LEDS termnando con un delay de 20 milisegundos
+
 
  
   entradatemperatura = analogRead(pinsensortemperatura);                                                                                                     
@@ -116,10 +120,12 @@ Actua como lectura analogica de la información que recibe el porcentaje de agua
   delay(20);
 
 
+
  Hace otra lectura analogica ajustando su entrada de 50/1024 grados celsius con una
  calculo sin Map y envia
   los datos de entrada al panel de control, relé y LEDS terminando con otro delay de 
   20 milisegundos
+  
  
   entradahumedad = analogRead(pinsensorhumedad);                             
   humedad=map(entradahumedad, 0, 1023, 0, 100);                              
@@ -132,10 +138,12 @@ Actua como lectura analogica de la información que recibe el porcentaje de agua
    0 a 100  con map siendo un valor elatvo pasando su entrada al panel de control, relé 
   y LEDS terminando con un delay de 20
 
+
   
  /*A TENER EN CUENTA:
     - La programación del relé está funcionado al revés para hacer que funcione correctamente.
  */
+
 
  //Nivel de agua bajo, paramos todo y conectamos LED azul
   if (agua <= 30){
@@ -143,9 +151,11 @@ Actua como lectura analogica de la información que recibe el porcentaje de agua
     miBT.write(1);
     digitalWrite(led, LOW);
     digitalWrite(rele, HIGH);
+
     
 
 if dice que si el nivel de agua es menor a 30% la lectura digital i el miBT envia esa información a led que lo apaga y al relé que lo apaga también
+
 
    
   }
@@ -176,8 +186,10 @@ if dice que si el nivel de agua es menor a 30% la lectura digital i el miBT envi
 
 
 
+
     if temperatura es menor de 50% digitalwrite y miBt  apaga el led rojo y Enciende el relé
     
+
   
     
     //Si la humedad es alta no regamos ni damos señal de advertencia
@@ -185,6 +197,7 @@ if dice que si el nivel de agua es menor a 30% la lectura digital i el miBT envi
       digitalWrite (led, LOW);
       miBT.write(4);
       digitalWrite (rele, HIGH);
+
     
 
   
