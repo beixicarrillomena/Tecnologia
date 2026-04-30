@@ -185,9 +185,9 @@ if dice que si el nivel de agua es menor a 30% la lectura digital i el miBT envi
       digitalWrite (led, LOW);
       miBT.write(4);
       digitalWrite (rele, HIGH);
-    }
+    
 
-  }
+  
  
   delay (20);
 }
