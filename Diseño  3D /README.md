@@ -262,7 +262,7 @@ if el dato que recibe el modulo bluetooth se lee con miBTread que se le pasa a l
         digitalWrite(ledagua, LOW);
       }
 
-si el if que recibio no es uno 1 sino 2 significa que el led de agua se apaga
+si el if que recibio no es uno 1 pero sino 2 significa que el led de agua se apaga
 
       
       if (dato==3){
@@ -276,7 +276,63 @@ si el if que recibio no es uno 1 sino 2 significa que el led de agua se apaga
 
 }
 
-
+si if recibio es 3 enciende el led de temperatura o si el if es 4 o 5 apaga el led de temperatura 
 
 
 ## ¿Como se configura los modulos bluetooth?
+
+#include <SoftwareSerial.h>
+
+
+incluye una "variable" cual se llama software
+
+
+// Definimos los pines de comunicación serial por software
+SoftwareSerial miBT(10, 11); // RX, TX
+
+
+definimos unas variables cuales son 10=RX y 11=TX
+
+void setup() {
+  Serial.begin(9600);   // Comunicación con el PC
+  miBT.begin(38400); // Velocidad estándar del modo AT del HC-05
+  Serial.println("Listo. Introduce comandos AT:");
+}
+
+activamos serial begin para lectura digital y analogica y también miBT begin para activar la lectura de los modulos bluetooth
+junto a serialprint para mostrar los procesos desde la consola
+
+
+void loop() {
+  // De Bluetooth a Monitor Serial
+  if (miBT.available()) {
+    Serial.write(miBT.read());
+  }
+  // De Monitor Serial a Bluetooth
+  if (Serial.available()) {
+    miBT.write(Serial.read());
+  }
+}
+aqui en codigo muestra que si la escritura viene de serial begin se transpanse a miBT para enviar la información eso pasa con el maestro
+y al reves de miBT a serial begin que pasa con el esclavo recibiendo la información pasandolo a serial begin.
+
+
+Configuración mediante el modo AT :
+Tanto para maestro como para esclavo hay que conectar la patilla "EN" o "KEY" del módulo HC-05 a 5V, un a vez hecho, se deja presionado el botón reset y se conecta Arduino por USB al ordenador desde el que vamos a hacer la configuración. Acto seguido se escribe lo siguiente en el Monitor Serie:
+
+
+ESCLAVO:
+AT
+AT+ROLE=0
+AT+ADDR?
+
+
+aqui configuramos los modulos bluetooth y ponemos  que el role de este modulo bluettoth es esclavo y le preguntamos su matricula.
+
+
+MAESTRO:
+AT
+AT+ROLE=1
+AT+BIND= "escribir directamente la dirección MAC del esclavo" (sustituir los ":" por ",")
+
+Aqui configuramos el maestro cual le ponemos su rol de maestro con T+ROLE=1 y ponemos AT+BIND para que el maestro solo envie señales y se conecte a un unica matricula cual sera la de el esclavo para evitar otras conexiones añadiendo ciberseguridad.
