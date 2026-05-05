@@ -51,6 +51,11 @@
    ![hardware](imagenes/perspectiva.jpg)
 
 
+
+
+   ![imagenes TINKERCAD](imagenes/montajeTINKERCAD.png)
+
+
 ## ¿Como es el programa del maestro?
 
 CÓDIGO MAESTRO:
