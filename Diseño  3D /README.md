@@ -279,6 +279,13 @@ si el if que recibio no es uno 1 pero sino 2 significa que el led de agua se apa
 si if recibio es 3 enciende el led de temperatura o si el if es 4 o 5 apaga el led de temperatura 
 
 
+
+
+  ![slave de Adrian Mena Serrano](imagenes/slave.png)
+
+
+
+
 ## ¿Como se configura los modulos bluetooth?
 
 #include <SoftwareSerial.h>
