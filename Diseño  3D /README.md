@@ -41,7 +41,7 @@
 
 ##  ¿Que ODS cumplen nuestro proyecto?
 
-- Claramente nuestro proyecto cumplen objetivos de la ODS en total cumple 3 ODS cuales son 3:Salud y bienestar, 9:Industrial innovación e infraestrucutra y 12:Produción y consumo responsable. haciendo que  nuestro proyecto tenga un objetivo progresista y mejore y ayude a la economia del todo el mundo de forma sostenible.
+- Claramente nuestro proyecto cumplen objetivos de la ODS en total cumple 3 ODS cuales son 3:Salud y bienestar, 9:Industrial innovación e infraestrucutra y 12:Produción y consumo responsable. haciendo que  nuestro proyecto tenga un objetivo progresista y mejore y ayude a la economia del todo el mundo de forma sostenible. Despues extenderemos nuestro proyecto al jardin vertical para cumplir más ODS cortaremos las bombas de agua de abajo y unir a un tubo superior para que con la configuración de un temporizador "la manguera" permita el flujo de agua y cuando la corte aparte de otras modificaciones para mejorar la calidad y asi para que con esta extensión tambien se cumpla más ODS
  
 
 ## ¿De que esta compuesto?
