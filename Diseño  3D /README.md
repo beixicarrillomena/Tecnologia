@@ -37,6 +37,11 @@
 ##  Problema y objetivo del programa implementado a nuestro invernadero
 
 - El problema es la necesidad de renovación del invernadero y de como adaptarlo más a la tecnologia y que sea casi automativco para que no necesite tanta mano humana durante su función para que asi nuestro objetivo sea mejorar la calidad de alimentos organicos y cumplir los objetivos de la agenda 20 30. Por  eso despues de montar la base  se pondra el programa del invernadero. Cual es un montaje que te avisa si hace poco/mucha temperatura y agua y riega automaticamente las plantas con varios sensonres, siendo casi totalmente autonomo para cumplir el objetivo de elinvernadero automatico.
+
+
+##  ¿Que ODS cumplen nuestro proyecto?
+
+- Claramente nuestro proyecto cumplen objetivos de la ODS en total cumple 3 ODS cuales son 3:Salud y bienestar, 9:Industrial innovación e infraestrucutra y 12:Produción y consumo responsable. haciendo que  nuestro proyecto tenga un objetivo progresista y mejore y ayude a la economia del todo el mundo de forma sostenible.
  
 
 ## ¿De que esta compuesto?
